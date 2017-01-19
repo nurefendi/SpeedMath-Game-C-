@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="speedmath.gagal4"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:speedmath"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:ConnectionId='1' Background="#DCDCDC"                     >
+        <Ellipse Fill="GhostWhite" 
+                 HorizontalAlignment="Center" 
+                 Height="300" 
+                 Margin="0,0,0,0" 
+                 Stroke="#778899" 
+                 StrokeThickness="10"
+                 VerticalAlignment="Center" 
+                 Width="300"/>
+        <TextBlock x:ConnectionId='2' x:Name="Timeaja" 
+                   HorizontalAlignment="Center" 
+                   Margin="0,0,0,0" 
+                   TextWrapping="Wrap" 
+                   FontSize="200"
+                   Text="04" 
+                   VerticalAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center" 
+                   Margin="0,451,0,51" 
+                   TextWrapping="Wrap" 
+                   FontSize="100"
+                   Text="Incorrect!" 
+                   VerticalAlignment="Center" />
+    </Grid>
+</Page>
+
